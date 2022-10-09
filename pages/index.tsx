@@ -32,9 +32,9 @@ const Home: NextPage = () => {
             <p className="ext-md py-5 leading-8 text-gray-800 md:text-xl lg:text-2xl max-w-2xl mx-auto dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aliquid maiores nihil, veritatis nemo dolore a ea neque commodi eius corporis, ex quas animi incidunt rem voluptatum eveniet, eligendi eaque.</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
-            <a href="https://github.com/HenryMigo" target="_blank"><AiFillGithub /></a>
-            <a href="https://www.linkedin.com/in/henry-migo" target="_blank"><AiFillLinkedin /></a>
-            <a href="https://www.twitch.tv/hmigo" target="_blank"><FaTwitch /></a>
+            <a href="https://github.com/HenryMigo" target="_blank" rel="noreferrer"><AiFillGithub /></a>
+            <a href="https://www.linkedin.com/in/henry-migo" target="_blank" rel="noreferrer"><AiFillLinkedin /></a>
+            <a href="https://www.twitch.tv/hmigo" target="_blank" rel="noreferrer"><FaTwitch /></a>
           </div>
         </section>
       </main>
