@@ -6,7 +6,7 @@ import { FaTwitch } from 'react-icons/fa';
 import { useState } from 'react';
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(true);
+    const [darkMode, setDarkMode] = useState(true);
 
     return (
         <div className={darkMode ? "dark" : ""}>
