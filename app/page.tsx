@@ -1,11 +1,20 @@
-import type { Metadata } from 'next'
+"use client";
+
+import { useState } from "react";
+import Nav from "../components/nav";
 import Home from "./home";
 
-export const metadata: Metadata = {
-    title: 'Henry Migo',
-    description: 'Website for Henry Migo',
-}
-
 export default function Page() {
-    return <Home/>
+  const darkMode = useState(true);
+
+  return (
+    <div className={darkMode ? "dark" : ""}>
+      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
+        <section className="min-h-screen">
+          <Nav />
+          <Home />
+        </section>
+      </main>
+    </div>
+  );
 }
