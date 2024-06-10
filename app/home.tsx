@@ -4,6 +4,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { FaTwitch } from "react-icons/fa";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -13,6 +14,7 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
+            <h1 className="ext-md leading-8 text-gray-800 md:text-xl dark:text-white"><Link href="/blog">Blog</Link></h1>
             <h1 className="text-xl dark:text-white"></h1>
             <ul className="flex items-center select-none">
               <li>
