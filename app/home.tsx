@@ -4,6 +4,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { FaTwitch } from "react-icons/fa";
 import { useState } from "react";
+import Link from 'next/link';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
@@ -61,27 +62,27 @@ export default function Home() {
             </button>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-white">
-            <a
+            <Link
               href="https://github.com/HenryMigo"
               target="_blank"
               rel="noreferrer"
             >
               <AiFillGithub />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://www.linkedin.com/in/henry-migo"
               target="_blank"
               rel="noreferrer"
             >
               <AiFillLinkedin />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://www.twitch.tv/hmigo"
               target="_blank"
               rel="noreferrer"
             >
               <FaTwitch />
-            </a>
+            </Link>
           </div>
         </section>
       </main>
